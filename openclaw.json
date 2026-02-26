@@ -1,0 +1,51 @@
+{
+  "auth": {
+    "profiles": {
+      "google:default": {
+        "provider": "google",
+        "mode": "api_key"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "google/gemini-2.5-flash"
+      },
+      "workspace": "C:\\Users\\varun\\.openclaw\\workspace",
+      "compaction": {
+        "mode": "safeguard"
+      }
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "YOUR_BOT_TOKEN_HERE",
+      "groupPolicy": "allowlist",
+      "streaming": "off"
+    }
+  },
+  "gateway": {
+    "auth": {
+      "mode": "token",
+      "token": "35eec3ea767dcbe172e611bb09ce5d0e441288e46a254659"
+    },
+    "nodes": {
+      "denyCommands": [
+        "web_search"
+      ]
+    }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.2.24",
+    "lastTouchedAt": "2026-02-26T13:15:00.178Z"
+  }
+}
