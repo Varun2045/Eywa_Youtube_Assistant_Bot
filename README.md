@@ -49,10 +49,9 @@ openclaw gateway run
 ## 📸 Demo Screenshots
 
 ### 1. Automated Summarization
+![Summary Screenshot](Screenshot/1.png)
+**Description**: When a YouTube link is received, the assistant executes the core tool to generate a title, 5 key points, and a core takeaway.
 
-**Filename: `/Screenshot/1.png`
-When a YouTube link is received, the assistant executes the core tool:
-`python C:\Users\varun\.openclaw\workspace\skills\get_transcript.py "URL_HERE"`
 The output is formatted with:
 
 * ☑ **Video Title**
@@ -60,10 +59,11 @@ The output is formatted with:
 * ⏳ **Timestamps**
 * 💡 **Core Takeaway**
 
-### 2. Multilingual Support
 
-**Filename: `2.png`
-Demonstration of the assistant translating the generated summary into **Hindi** and **Kannada** upon user request.
+### 2. Multilingual Support
+![Language Screenshot](Screenshot/2.png)
+**Description**: Demonstration of the assistant translating the generated summary into Hindi and Kannada.
+
 
 ---
 
